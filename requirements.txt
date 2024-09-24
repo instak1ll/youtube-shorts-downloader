@@ -1,0 +1,4 @@
+tk
+yt-dlp
+selenium
+beautifulsoup4
