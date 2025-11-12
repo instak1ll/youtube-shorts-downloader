@@ -1,47 +1,55 @@
 # YouTube Shorts Downloader
 
-Este proyecto permite descargar todos los Shorts de YouTube desde un canal específico utilizando Selenium y yt-dlp. La interfaz gráfica está construida con Tkinter.
+This project allows you to download all YouTube Shorts from a specific channel using Selenium and yt-dlp. The graphical interface is built with Tkinter.
 
-## Requisitos
+## Requirements
 
-Antes de ejecutar el script, asegúrate de tener instalado lo siguiente:
+Before running the script, make sure you have the following installed:
 
-- **Python 3.7 o superior**
-- **Dependencias de Python**: Puedes instalar las dependencias necesarias usando el archivo `requirements.txt`.
+- **Python 3.7 or higher**
+- **Python Dependencies**: You can install the required dependencies using the `requirements.txt` file.
 
-Puedes instalar todas las dependencias ejecutando el siguiente comando en tu terminal:
+You can install all dependencies by running the following command in your terminal:
 
 ```bash
 pip install --user -r requirements.txt
 ```
 
-## Instalación del WebDriver
+## WebDriver Installation
 
-Para que Selenium funcione, necesitarás instalar un WebDriver compatible con tu navegador. Este proyecto utiliza Chrome, así que necesitarás ChromeDriver instalado y en tu PATH del sistema. Asegúrate de que la versión del ChromeDriver coincida con la versión de tu navegador Chrome.
+For Selenium to work, you'll need to install a WebDriver compatible with your browser. This project uses Chrome, so you'll need ChromeDriver installed and in your system PATH. Make sure the ChromeDriver version matches your Chrome browser version.
 
-## Uso
+## Usage
 
-1. Clona o descarga este repositorio en tu máquina local.
-2. Navega al directorio del proyecto en tu terminal.
-3. Ejecuta el script:
+1. Clone or download this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run the script:
 
 ```bash
 python main.py
 ```
 
-4. Se abrirá una ventana de la interfaz gráfica donde podrás ingresar la URL del canal de YouTube y seleccionar la carpeta de destino para los videos descargados. 
-5. Haz clic en "Descargar Shorts" para iniciar el proceso.
+4. A graphical interface window will open where you can enter the YouTube channel URL and select the destination folder for downloaded videos.
+5. Click "Download Shorts" to start the process.
 
-## Vista previa
+## Features
 
-Video demostrativo sobre cómo usar el downloader:
+- Download all shorts from a YouTube channel
+- Concurrent downloads for maximum speed
+- Simple and intuitive graphical interface
+- Automatic numbering to prevent file overwrites
+- Progress tracking with visual progress bar
+
+## Demo
+
+Demonstration video on how to use the downloader:
 
 https://github.com/user-attachments/assets/65cb4150-efb6-4a04-9d3c-742a2b93c24f
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, siéntete libre de abrir un issue o enviar un pull request.
+If you want to contribute to this project, feel free to open an issue or submit a pull request.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+This project is under the MIT License - see the [LICENSE](LICENSE) file for more details.
